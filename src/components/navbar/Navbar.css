@@ -1,0 +1,42 @@
+.nav-container{
+    background-color:rgb(168, 136, 238);
+    display: flex;
+    justify-content: space-between;
+}
+.link {
+    text-decoration: none;
+}
+.app-icon{
+    height: 12vh;
+}
+
+.welcome{
+    font-weight: 900;
+    font-size: 3rem;
+    /* margin-left: 30%; */
+    color:white;
+    margin-top: 2%;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-right: 2%;
+    font-size: 1.2rem;
+    list-style: none;
+    cursor: pointer;
+}
+ul li{
+    width: 6rem;
+    font-weight: 700;
+    height: 2.1rem;
+    border-radius: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 4px;
+    transition: transform 1s ease ;
+}
+ul li:active{
+    background-color: rgb(233, 186, 169);
+    transform: scale(0.95);
+}

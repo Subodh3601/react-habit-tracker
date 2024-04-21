@@ -1,0 +1,16 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.left-container {
+    /* background-color: aqua; */
+    width: 60%;
+    height: 80%;
+    margin-left: auto;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

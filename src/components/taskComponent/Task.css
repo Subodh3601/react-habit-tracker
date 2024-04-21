@@ -1,0 +1,110 @@
+.container {
+  background-color: rgb(225, 216, 250);
+  width: 80vw;
+  margin-inline: auto;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.heading-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detail-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status-unattempted {
+  width: 2vw;
+  height: 3vh;
+  border-radius: 50%;
+  border: 1px solid;
+  background-color: rgb(237, 248, 248);
+  cursor: pointer;
+}
+.status-done {
+  width: 2vw;
+  height: 3vh;
+  border-radius: 50%;
+  border: 1px solid;
+  background-color: rgb(31, 247, 7);
+  cursor: pointer;
+}
+.status-notdone{
+  width: 2vw;
+  height: 3vh;
+  border-radius: 50%;
+  border: 1px solid;
+  background-color: red;
+  cursor: pointer;
+}
+
+.to {
+  font-weight: 700;
+  margin-inline: 0.5rem;
+}
+
+/* form- component css --------------------------*/
+
+.form-div {
+  background-color: rgb(107, 107, 108);
+  width: 80%;
+  padding: 2rem;
+  margin-inline: auto;
+  text-align: center;
+}
+.heading-input {
+  width: 25rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  padding-inline: 0.5rem;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.form-outer-div {
+  margin-inline: auto;
+  width: 80%;
+  display: flex;
+}
+.form-title-div {
+  background-color: rgb(242, 208, 182);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  text-align: center;
+}
+.label {
+  color: white;
+  margin-inline: 0.5rem;
+}
+.day-input {
+  width: 1rem;
+  height: 1rem;
+  margin-bottom: 1rem;
+}
+.form-title-div h1 {
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+}
+.create-task-heading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.heading-input:focus {
+  background-color: rgb(179, 164, 194);
+}
+.create-task {
+  background-color: rgb(242, 208, 182);
+  width: 4rem;
+  writing-mode: vertical-rl;
+  /* text-align: center; */
+  font-size: 2rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  cursor: pointer;
+}
+.create-task:active {
+  background-color: rgb(177, 112, 239);
+}

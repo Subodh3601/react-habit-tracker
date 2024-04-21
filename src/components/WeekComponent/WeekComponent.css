@@ -1,0 +1,114 @@
+.week-detail-outer-div{
+    background-color: rgb(107, 107, 108);
+    width: 50%;
+    height: 20vh;
+    color: white;
+    font-weight: 700;
+    margin-inline:2rem ;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+.week-detail-outer-div::-webkit-scrollbar{
+  visibility:hidden;
+}
+.week-detail-div{
+  background-color: rgb(147, 157, 159);
+  width: 90%;
+  height: 10vh;
+  margin-bottom: 1rem;
+  margin-inline: auto;
+  height: 3.5rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 1rem;
+
+}
+.week-date{
+  position: sticky;
+  top: 0;
+  background-color: rgb(147, 183, 222);
+  width: 6rem;
+  height: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  padding-top:0.2rem ;
+  color: black;
+}
+.heading{
+    background-color: rgb(233, 221, 238);
+    width: 50%;
+    height: 80%;
+    margin-block: auto;
+    border-radius: 10px;
+    padding:0.2rem;
+    color: black;
+}
+.week-time{
+    background-color: rgb(233, 221, 238);
+    width: 20%;
+    height: 80%;
+    margin-block: auto;
+    border-radius: 10px;
+    text-align: center;
+    /* padding-block:0.5rem; */
+    color: black;
+}
+
+.unattempted {
+  width: 2vw;
+  height: 3vh;
+  border-radius: 50%;
+  border: 1px solid;
+  margin-top: 1rem;
+  background-color: rgb(237, 248, 248);
+  cursor: pointer;
+}
+.done {
+  width: 2vw;
+  height: 3vh;
+  border-radius: 50%;
+  border: 1px solid;
+  margin-top: 1rem;
+  background-color: rgb(31, 247, 7);
+  cursor: pointer;
+}
+.notdone{
+  width: 2vw;
+  height: 3vh;
+  border-radius: 50%;
+  border: 1px solid;
+  margin-top: 1rem;
+  background-color: red;
+  cursor: pointer;
+}
+.success-image {
+  position: absolute;
+  top: 13%;
+  right: 2%;
+  width: 43%;
+  height: 56%;
+}
+.weekpage-message {
+  width: 43%;
+  font-size: 2rem;
+  font-weight: 700;
+  position: absolute;
+  right: 2%;
+  bottom: 12%;
+  color:black;
+  animation: message 5s ease infinite;
+}
+
+@keyframes message {
+  0% {
+    color:blueviolet;
+  }
+  50% {
+   color: rgb(233, 222, 243);
+  }
+  100% {
+    color: blueviolet;
+  }
+}
